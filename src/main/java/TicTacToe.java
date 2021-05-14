@@ -48,6 +48,7 @@ public class TicTacToe implements ActionListener {
         firstTurn();
 
     }
+
     @Override
     public void actionPerformed(ActionEvent e){
 
@@ -73,6 +74,7 @@ public class TicTacToe implements ActionListener {
             }
         }
     }
+
     public void firstTurn(){
         try{
             Thread.sleep(2000);
